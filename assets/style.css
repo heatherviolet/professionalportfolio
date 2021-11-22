@@ -1,28 +1,23 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     background-color: lavender;
 }
 
 .header {
     padding: 30px;
+    border: 3px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: gray;
     color: plum;
+    padding: 30px 50px 30px 50px;
+    margin: 5px 0;
+    box-sizing: border-box;
+
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
     text-shadow: 0 0 10px rgba (0, 0, 0, 0.5);
-}
-
-.header h1 .seo {
-    color: rgb(87, 7, 87);
 }
 
 .header div {
@@ -47,6 +42,7 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    padding-top: 60px;
 }
 
 p {
@@ -55,11 +51,11 @@ p {
 
 .hero {
     height: 175px;
-    width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/dark.jpg");
     background-size: cover;
     background-position: center;
+    border: 3px groove grey;
 }
 
 .float-left {
@@ -73,7 +69,55 @@ p {
 }
 
 .content {
-    width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-top: 180px;
+    background-color: plum;
+    border: 5px groove plum;
+
 }
+
+.About {
+    height: 400px;
+    margin-left: -3px;
+    top: 0;
+} 
+
+.body img {
+    width: 20%;
+    height: auto;
+    padding-left: 50px;
+    padding-bottom:50px;
+}
+
+.About h2 {
+    margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: rgb(51, 3, 51);
+    font-size: 40px
+}
+
+.About p {
+    color: white;
+    padding-right: 50px
+}
+
+.Work {
+    border: 5px groove plum;
+}
+.Work h2 { 
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: plum;
+}
+
+.Contact {
+    border: 5px groove plum;
+    color: white;
+}
+.Contact h2{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: rgb(51, 3, 51);
+}
+
